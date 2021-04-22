@@ -10,7 +10,7 @@ Tag.init(
       type: DataTypes.INTEGER,
       autoIncrement: true,
       allowNull: false,
-      primaryKey: false
+      primaryKey: true
     },
     tag_name: {
       type: DataTypes.STRING

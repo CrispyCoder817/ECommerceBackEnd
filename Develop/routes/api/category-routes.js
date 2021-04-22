@@ -37,7 +37,7 @@ router.get("/:id", (req, res) => {
   })
     .then((dbCategoryData) => {
       if (!dbCategoryData) {
-        res.status(404).json({ message: "No category; Use the force" });
+        res.status(404).json({ message: "No category; Use the power of OverstackFlow" });
         return;
       }
       res.json(dbCategoryData);
